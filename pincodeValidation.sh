@@ -2,7 +2,7 @@ echo "Welcome to pin code verification"
 
 function validatePincode() {
 	pincode=$1
-	pat="\d\d{4}\d"
+	pat="\d{3} ?\d{3}"
 	if [[ $pincode =~ $pat ]]
 	then
 		echo good pincode
