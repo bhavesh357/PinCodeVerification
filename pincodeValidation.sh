@@ -1,0 +1,1 @@
+echo "Welcome to pin code verification"
